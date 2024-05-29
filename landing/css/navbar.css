@@ -60,19 +60,6 @@
     background-color: #34495E;
     color: white;
 }
-/* 
-@media (max-width: 1244px) {
-    .navbar-menu {
-        display: none;
-        width: 100%;
-        justify-content: space-between;
-        background-color: #F1C40F;
-        position: relative;
-        z-index: 1;
-        transform: translateY(-100%);
-        transition: transform 1.0s ease;
-    }
-} */
 
 @media (max-width: 1244px) {
     .navbar {
