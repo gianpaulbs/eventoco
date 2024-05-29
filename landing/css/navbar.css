@@ -48,6 +48,6 @@
 }
 
 .navbar-button .btn:hover {
-    background-color: #34495E; /* Fondo azul al hacer hover */
-    color: white; /* Texto blanco al hacer hover */
+    background-color: #34495E;
+    color: white;
 }
