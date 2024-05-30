@@ -10,6 +10,7 @@
     <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
 
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -19,25 +20,36 @@
 </head>
 
 <body>
-    <!-- Menú de Navegación -->
-    <nav class="navbar">
-        <div class="navbar-logo">
-            <img src="img/logo.png" alt="Logo">
-        </div>
-        <div class="navbar-toggle">
-            <a href="#" class="burger" onclick="toggleMenu();"><i class="fas fa-bars"></i></a>
-        </div>
-        <div class="navbar-menu">
-            <ul class="navbar-nav">
-                <li><a href="#home">Información</a></li>
-                <li><a href="#services">Funciones</a></li>
-                <li><a href="#contact">Testimonios</a></li>
-            </ul>
-        </div>
-        <div class="navbar-button">
-            <a href="#start" class="btn">COMENZAR</a>
-        </div>
-    </nav>
+    <div class="head-container">
+        <!-- Menú de Navegación -->
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="navbar-toggle">
+                <a href="#" class="burger" onclick="toggleMenu();"><i class="fas fa-bars"></i></a>
+            </div>
+            <div class="navbar-menu">
+                <ul class="navbar-nav">
+                    <li><a href="#home">Información</a></li>
+                    <li><a href="#services">Funciones</a></li>
+                    <li><a href="#contact">Testimonios</a></li>
+                </ul>
+            </div>
+            <div class="navbar-button">
+                <a href="#start" class="btn">COMENZAR</a>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Grandes ideas necesitan de gran organización</h1>
+                <p>¿Problemas con el presupuesto? ¿Desorganización del equipo? ¿Difícil contactar proveedores? Nuestra solución de planificación es rápida, fácil y eficiente.</p>
+                <button href="#learn-more" class="btn-hero">Conocer más</button>
+            </div>
+        </section>
+    </div>
 </body>
 <script src="js/navbar.js"></script>
 </html>
