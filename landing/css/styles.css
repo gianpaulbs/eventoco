@@ -7,3 +7,11 @@
 body {
     font-family: 'Inter';
 }
+
+.head-container {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F1C40F;
+    border-radius: 0 0 80% 80%;
+}

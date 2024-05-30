@@ -3,8 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 80px;
-    background-color: #F1C40F;
+    background-color: transparent;
     height: 163px;
+    z-index: 2;
 }
 
 .navbar-logo img {
@@ -91,6 +92,7 @@
         border-top: 0.5px solid #34495E;
         box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 42%);
         transform: translateY(0%);
+        z-index: 3;
     }
 
     .navbar-nav {
