@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logo.ico" type="image/x-icon">
+    <title>Eventoco</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/testimony.css">
+    <link rel="stylesheet" href="css/cta.css">
+    <link rel="stylesheet" href="css/foot.css">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<header class="background">
+    <!-- Menú de Navegación -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="navbar-toggle">
+            <a href="#" class="burger" onclick="toggleMenu();"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="navbar-menu">
+            <ul class="navbar-nav">
+                <li><a href="#home">Información</a></li>
+                <li><a href="#services">Funciones</a></li>
+                <li><a href="#contact">Testimonios</a></li>
+            </ul>
+        </div>
+        <div class="navbar-button">
+            <a href="#start" class="btn">COMENZAR</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Grandes ideas necesitan de gran organización</h1>
+            <p>¿Problemas con el presupuesto? ¿Desorganización del equipo? ¿Difícil contactar proveedores? Nuestra
+                solución de planificación es rápida, fácil y eficiente.</p>
+            <button href="#learn-more" class="btn-hero">Conocer más</button>
+        </div>
+    </section>
+</header>
+
+<body>
+    <!-- Informacion -->
+    <section class="information">
+        <div class="information-content">
+            <div class="information-image">
+                <img src="img/demo.png" alt="Imagen preliminar de Eventoco">
+            </div>
+            <div class="information-text">
+                <p>Eventoco es una herramienta todo-en-uno que simplifica la organización previa de un evento de una
+                    manera dinámica y fácil de usar.</p>
+                <hr>
+                <p>Buscamos solucionar los problemas que los estudiantes universitarios puedan encontrarse en su
+                    trayecto de la organización de eventos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimony">
+        <div class="testimony-content">
+            <h2>Testimonios</h2>
+            <p>¡Estos son nuestros clientes que ya probaron de Eventoco!</p>
+            <div class="testimony-cards">
+                <div class="testimony-item">
+                    <img src="img/students/student-1.png" alt="Testimonio del estudiante">
+                    <div class="testimony-text">
+                        <p>¡Increíble! Organizar mi evento fue muy fácil con esta plataforma. Todas las tareas se
+                            lograron
+                            realizar de manera intuitiva. ¡Ahorré mucho tiempo y esfuerzo gracias a <b>Eventoco</b>!</p>
+                        <div class="testimony-author">
+                            <h3>María Valle - ULIMA</h3>
+                            <h4>Team Leader</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimony-item">
+                    <img src="img/students/student-2.png" alt="Testimonio del estudiante">
+                    <div class="testimony-text">
+                        <p>¡<b>Eventoco</b> es fácil de usar y presenta un diseño amigable!. Sin la herramienta no
+                            podría haber manejado el presupuesto de nuestro equipo, y hubieramos fallado. ¡Gracias! </p>
+                        <div class="testimony-author">
+                            <h3>Victor Guirado - UPC</h3>
+                            <h4>Financista</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimony-item">
+                    <img src="img/students/student-3.png" alt="Testimonio del estudiante">
+                    <div class="testimony-text">
+                        <p>Sin <b>Eventoco</b>, no podría haber encontrado a proovedores de comida e iluminación para
+                            que den vida a nuestro evento. ¡La busqueda fue rápida y sencilla, y el proovedor fue el
+                            indicado!</p>
+                        <div class="testimony-author">
+                            <h3>Lidia Gimeno - UNI</h3>
+                            <h4>Gerente de Operaciones</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/navbar.js"></script>
+</body>
+
+<footer class="background">
+    <section class="cta">
+        <div class="cta-content">
+            <h1>Grandes ideas necesitan de Eventoco</h1>
+            <h2>¿Qué estás esperando?</h2>
+            <button href="#learn-more" class="btn-hero">Crear una cuenta</button>
+        </div>
+    </section>
+    <nav class="foot">
+        <div class="foot-menu">
+            <ul class="foot-copyright">
+                <li>Grupo 2 - IHC y Programación Web | Copyright © 2024</li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+
+</html>
