@@ -39,6 +39,7 @@
     font-size: 1rem;
     transition: background-color 0.3s, color 0.3s;
     border: none;
+    cursor: pointer;
 }
 
 .btn-hero:hover {

@@ -1,0 +1,24 @@
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #34495E;
+    height: 100px;
+    z-index: 2;
+    padding: 50px;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot li {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17.5px;
+}
+
+@media (max-width: 1244px) {
+}   

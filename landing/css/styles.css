@@ -8,10 +8,17 @@ body {
     font-family: 'Inter';
 }
 
-.head-container {
+.background {
     background-image: url('../img/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #F1C40F;
+}
+
+header {
     border-radius: 0 0 80% 80%;
+}
+
+footer {
+    border-radius: 80% 80% 0 0;
 }
