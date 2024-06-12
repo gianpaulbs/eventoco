@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './toggle-button.component.css',
 })
 export class ToggleButtonComponent {
-  @Input() label: string = '¡Púlsame!';
+  @Input() label: string | undefined;
 }
