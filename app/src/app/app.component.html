@@ -1,1 +1,11 @@
-<toggle-button label="Soy un botón deslizante"></toggle-button>
+<div style="display: flex; justify-content: space-between; width:30%; margin: 25px;">
+  <main-button label="Botón largo" size="large"></main-button>
+  <main-button label="Botón medio" size="medium"></main-button>
+  <main-button label="Pequeño" size="small"></main-button>
+</div>
+
+<div style="display: flex; justify-content: space-between; width:30%; margin: 25px;">
+  <main-button [secondaryColor]="true" label="Botón largo" size="large"></main-button>
+  <main-button [secondaryColor]="true" label="Botón medio" size="medium"></main-button>
+  <main-button [secondaryColor]="true" label="Pequeño" size="small"></main-button>
+</div>
