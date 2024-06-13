@@ -4,4 +4,6 @@ body { margin: 0; font-family: "Inter", sans-serif; }
 :root {
   --primary-color: #34495E;
   --secondary-color: #F1C40F;
+  --font-light-color: #FFFFFF;
+  --font-dark-color: #4F4F4F;
 }
