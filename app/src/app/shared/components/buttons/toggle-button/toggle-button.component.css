@@ -35,7 +35,7 @@
 }
 
 .toggle-input:checked + .toggle-switch {
-  background-color: #F1C40F;
+  background-color: var(--secondary-color);
 }
 
 .toggle-label {
