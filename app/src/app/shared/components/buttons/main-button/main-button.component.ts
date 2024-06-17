@@ -12,7 +12,6 @@ export class MainButtonComponent {
 
   get appliedStyles() {
     return {
-      [this.size]: true,
       secondary: this.secondaryColor,
     };
   }
