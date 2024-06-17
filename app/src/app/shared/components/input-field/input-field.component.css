@@ -1,7 +1,7 @@
 .input-field {
   display: flex;
   flex-direction: column;
-  margin: 0 10px 20px 0;
+  margin: 5% 0 5% 0;
   width: 100%;
   font-size: 1rem;
 }
@@ -13,7 +13,7 @@
 }
 
 .input-field input {
-  padding: 15px 20px;
+  padding: 20px;
   border: solid 0.5px #BDBDBD;
   border-radius: 4px;
   color: var(--font-dark-color);
@@ -22,4 +22,8 @@
 .input-field input:focus {
   border-color: #747272;
   outline: none;
+}
+
+::placeholder {
+  color: var(--font-gray-color);
 }

@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { root } from './core/constants';
 
 const routes: Routes = [
   {
-    path: root,
+    path: '',
     loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule),
   },
 ];

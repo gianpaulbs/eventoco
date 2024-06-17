@@ -1,0 +1,72 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-content {
+  width: 55.10%;
+  height: 100vh;
+}
+
+.login-form {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-footer {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.875rem;
+  color: var(--font-gray-color);
+}
+
+.login-portrait {
+  background-color: var(--secondary-color);
+  width: 44.90%;
+  height: 82.87vh;
+  background-image: url('/assets/multi-lines.png');
+  border-bottom-left-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.forget-password-message p {
+  margin-bottom: 40px;
+}
+
+.register-message p {
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--font-gray-color);
+  font-weight: 400px;
+}
+
+a {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 3.5rem;
+  margin-bottom: inherit;
+}
+
+h2 {
+  color: var(--font-gray-color);
+}
+
