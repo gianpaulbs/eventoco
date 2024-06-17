@@ -29,7 +29,7 @@
   background-color: var(--secondary-color);
   width: 44.90%;
   height: 82.87vh;
-  background-image: url('/assets/multi-lines.png');
+  background-image: url('/assets/lines/multi-lines-vertical.png');
   border-bottom-left-radius: 45px;
   display: flex;
   justify-content: center;
