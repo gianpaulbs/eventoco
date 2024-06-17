@@ -1,0 +1,78 @@
+.register-container {
+  height: 100vh;
+}
+
+.register-banner {
+  height: 47.22%;
+  background-color: var(--secondary-color);
+  background-image: url('/assets/lines/multi-lines-horizontal.png');
+  border-radius: 0 0 45px 45px;
+}
+
+.register-content {
+  position: absolute;
+  width: 23.54%;
+  height: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.register-header {
+  height: 20.5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-header img {
+  width: 70%;
+}
+
+.register-form {
+  height: 79.5%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 7px 23px 0px rgb(0 0 0 / 5%);
+}
+
+.register-form-title {
+  padding-top: 20px;
+}
+
+.register-form-social-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.form-social-btn {
+  width: 13%;
+  height: 50px;
+  margin: 20px 10px;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.register-classic {
+  padding: 0 15%;
+}
+
+.register-footer {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  color: var(--font-gray-color)
+}
+
+h1 {
+  color: var(--primary-color);
+  font-weight: 600px;
+  margin-top: inherit;
+}
+
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.125rem;
+}
