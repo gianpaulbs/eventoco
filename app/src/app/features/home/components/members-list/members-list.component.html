@@ -1,0 +1,14 @@
+<div class="members-container">
+  <h2>Miembros</h2>
+  <div class="members-list-items">
+    <div class="member-item" *ngFor="let m of members">
+      <img src="/assets/icons/user-profile.png">
+      <div class="member-info">
+        <h3>{{ m.name }}</h3>
+        <p>{{ m.role }}</p>
+      </div>
+    </div>
+    <br>
+    <main-button label="Añadir miembros" size="medium"></main-button>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="login-container">
+  <div class="login-content">
+    <div class="login-form">
+      <h1>Bienvenido/a!</h1>
+      <h2>Ingrese sus datos</h2>
+      <form>
+        <input-field label="Correo Electrónico" type="email"></input-field>
+        <input-field label="Contraseña" type="password"></input-field>
+        <section class="forget-password-message">
+          <p>¿Olvidó su contraseña? <a href="/forget-password">Recuperar contraseña</a></p>
+        </section>
+        <toggle-button label="Recordar este dispositivo por 30 días"></toggle-button>
+        <main-button label="Iniciar Sesión" size="large" [secondaryColor]="true"></main-button>
+      </form>
+
+      <section class="register-message">
+        <p>¿Todavía no tienes una cuenta?</p>
+        <a href="/register">Regístrate</a>
+      </section>
+    </div>
+
+    <div class="login-footer">
+      <p class="login-footer-text">© 2024, EventoCo</p>
+    </div>
+  </div>
+
+  <div class="login-portrait">
+    <img src="/assets/logo/logo.png" alt="Eventoco" class="Eventoco">
+  </div>
+</div>

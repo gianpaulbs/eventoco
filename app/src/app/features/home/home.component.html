@@ -1,0 +1,12 @@
+<div class="home-container">
+  <team-list></team-list>
+  <div class="home-content">
+    <div class="home-banner">
+      <h1>{{ team.name }}</h1>
+    </div>
+    <div class="events-members-container">
+      <events-list [events]="team.events"></events-list>
+      <members-list [members]="team.members"></members-list>
+    </div>
+  </div>
+</div>

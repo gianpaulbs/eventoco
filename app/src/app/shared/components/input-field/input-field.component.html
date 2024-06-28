@@ -1,0 +1,4 @@
+<div class="input-field">
+  <label [for]="inputId" *ngIf="label != undefined">{{ label }}</label>
+  <input [id]="inputId" [type]="type" placeholder="Ingresar texto aquí" [(ngModel)]="value" />
+</div>

@@ -1,0 +1,29 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0 5% 0;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.input-field label {
+  color: var(--font-dark-color);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.input-field input {
+  padding: 20px;
+  border: solid 0.5px #BDBDBD;
+  border-radius: 4px;
+  color: var(--font-dark-color);
+}
+
+.input-field input:focus {
+  border-color: #747272;
+  outline: none;
+}
+
+::placeholder {
+  color: var(--gray-4-color);
+}
