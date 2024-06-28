@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Henry Antonio",
+      "lastName": "Mendoza Puerta",
+      "email": "hmendo81@gmail.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "jane@example.com",
+      "password": "secret"
+    },
+    {
+      "firstName": "Patricia",
+      "lastName": "Mendez Rodriguez",
+      "email": "patricia@example.com",
+      "password": "password123",
+      "id": 3
+    },
+    {
+      "firstName": "Pablo",
+      "lastName": "Marmol Perez",
+      "email": "pablito@gmail.com",
+      "password": "HolaMundo",
+      "id": 4
+    },
+    {
+      "firstName": "José",
+      "lastName": "Higaldo Prueba",
+      "email": "hidalgo@gmail.com",
+      "password": "HolaMundo",
+      "id": 5
+    },
+    {
+      "firstName": "Pablo",
+      "lastName": "Marmol Perez",
+      "email": "pablito@gmail.com",
+      "password": "HolaMundo",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "IEEE CS UPC",
+      "members": [
+        {
+          "userId": 1,
+          "name": "Daniella Vargas",
+          "role": "Team Leader"
+        },
+        {
+          "userId": 2,
+          "name": "Jeremy Neal",
+          "role": "Gerente de Operaciones"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "name": "Hackathon",
+          "date": "DIC 12 2020",
+          "teamId": 1
+        },
+        {
+          "id": 2,
+          "name": "Concurso de Programación",
+          "date": "DIC 12 2020",
+          "teamId": 1
+        },
+        {
+          "id": 3,
+          "name": "Feria Industrial",
+          "date": "21 ENE 2024",
+          "teamId": 1
+        },
+        {
+          "id": 4,
+          "name": "The Weekend Hack",
+          "date": "21 ENE 2024",
+          "teamId": 1
+        },
+        {
+          "id": 5,
+          "name": "Hackeando servidores de Linux",
+          "date": "21 ENE 2024",
+          "teamId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "IEEE CAS UPC",
+      "members": [
+        {
+          "userId": 1,
+          "name": "Gianpaul Bernal",
+          "role": "Team Leader"
+        },
+        {
+          "userId": 2,
+          "name": "Abraham Ayquipa",
+          "role": "Gerente de Operaciones"
+        }
+      ],
+      "events": [
+        {
+          "id": 3,
+          "name": "Feria Industrial",
+          "date": "21 ENE 2024",
+          "teamId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ACM UPC",
+      "members": [
+        {
+          "userId": 1,
+          "name": "Stephen Hawking",
+          "role": "Team Leader"
+        },
+        {
+          "userId": 2,
+          "name": "Linus Torvalds",
+          "role": "Gerente de Operaciones"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Hackathon",
+      "date": "DIC 12 2020",
+      "teamId": 1
+    },
+    {
+      "id": 2,
+      "name": "Concurso de Programación",
+      "date": "DIC 12 2020",
+      "teamId": 1
+    },
+    {
+      "id": 3,
+      "name": "Feria Industrial",
+      "date": "21 ENE 2024",
+      "teamId": 2
+    }
+  ]
+}

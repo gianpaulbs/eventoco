@@ -1,0 +1,12 @@
+<div class="team-list-container">
+  <div class="team-list-btn-group">
+    <div class="team-list-item" *ngFor="let t of teams; let i = index">
+      <button [title]="t.name" [style.background-color]="colors[i]" (click)="chooseTeam(t)">
+        {{ getInitials(t.name) }}
+      </button>
+    </div>
+    <div class="team-list-item team-item-create">
+      <button title="Crear equipo"><img src="/assets/icons/plus.png"></button>
+    </div>
+  </div>
+</div>

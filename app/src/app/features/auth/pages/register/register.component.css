@@ -62,7 +62,7 @@
   bottom: 0;
   transform: translate(-50%, -50%);
   left: 50%;
-  color: var(--font-gray-color)
+  color: var(--gray-4-color)
 }
 
 h1 {
