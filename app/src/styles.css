@@ -6,5 +6,9 @@ body { margin: 0; padding: 0; font-family: "Inter", sans-serif; }
   --secondary-color: #F1C40F;
   --font-light-color: #FFFFFF;
   --font-dark-color: #4F4F4F;
-  --font-gray-color: #BDBDBD;
+  --gray-1-color: #333333;
+  --gray-2-color: #4F4F4F;
+  --gray-3-color: #828282;
+  --gray-4-color: #BDBDBD;
+  --gray-5-color: #E0E0E0;
 }
